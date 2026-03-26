@@ -1,0 +1,14 @@
+{
+  "name": "the-good-food-america-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Root package for Railway deployment of the backend",
+  "scripts": {
+    "install": "cd backend && npm install",
+    "build": "echo 'Build complete (no build step for backend).'",
+    "start": "cd backend && npm start"
+  },
+  "engines": {
+    "node": ">=18.x.x"
+  }
+}
