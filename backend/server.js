@@ -13,6 +13,9 @@ connectDB();
 
 const app = express();
 
+// Webhook route needs raw body, so it MUST be placed before express.json()
+app.use('/api/webhooks', express.raw({ type: 'application/json' }), require('./routes/webhookRoutes'));
+
 // Middleware
 app.use(express.json());
 app.use(cors());
