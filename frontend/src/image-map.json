@@ -1,0 +1,12 @@
+{
+  "homeHero": "/assets/images/hero/pbar-banner-1.webp",
+  "originalProduct": "/assets/images/products/pbar-original-front-1.webp",
+  "cocoaProduct": "/assets/images/products/pbar-cocoa-front-1.webp",
+  "nutritionLabel": "/assets/images/nutrition/pbar-nutrition-label-1.webp",
+  "ingredients": [
+    "/assets/images/ingredients/pbar-ingredient-almond.webp"
+  ],
+  "lifestyle": [
+    "/assets/images/lifestyle/pbar-lifestyle-gym-1.webp"
+  ]
+}
